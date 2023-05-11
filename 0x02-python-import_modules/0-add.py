@@ -1,4 +1,4 @@
-#import module
+#!/usr/bin/python3
 from add_0 import add as sum
 
 a = 1
