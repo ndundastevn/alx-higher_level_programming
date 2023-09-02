@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Fetche data from url  https://alx-intranet.hbtn.io/status."""
+"""Fetche status data from url  https://alx-intranet.hbtn.io/status."""
 import urllib.request
 
 
@@ -10,4 +10,4 @@ if __name__ == "__main__":
         print("Body response:")
         print("\t- type: {}".format(type(bodyy)))
         print("\t- content: {}".format(bodyy))
-        print("\t- utf8 content: {}".format(body.decode("utf-8")))
+        print("\t- utf8 content: {}".format(bodyy.decode("utf-8")))
